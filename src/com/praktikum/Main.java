@@ -26,7 +26,7 @@ public class Main {
         Scanner getMenu = new Scanner(System.in);
         
         System.out.print("Masukkan Nama Mahasiswa : ");
-        nama = getInput.next();
+        nama = getInput.nextLine();
         System.out.print("Masukkan NIM Mahasiswa : ");
         nim = getInput.next();
         System.out.print("Masukkan Usia Mahasiswa : ");
