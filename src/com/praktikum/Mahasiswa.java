@@ -36,7 +36,7 @@ public class Mahasiswa {
     }
     
     public float hitungRata2(int uts, int uas){
-        return (float)((uts+uas)/2);
+        return (float)((uts+uas)/2.0);
     }
     
 }
